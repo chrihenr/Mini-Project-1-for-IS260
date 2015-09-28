@@ -10,17 +10,17 @@ int main()
 	double demand;
 	double total;
 	const double pd = 21.00; // previous prediction
-	const double p = 0.1; //p is for prediction 0.1
+	const double p = 0.1; //p is for forecast for prediction 0.1
 
 	cout.setf(ios::fixed);
 		cout.setf(ios::showpoint);
 		cout.precision(2);
 
     
-	cout<<"Please enter the month number?"<<endl;
+	cout<<"Please enter the month number: "<<endl;
 	cin>>month;
 	cout<<endl;
-	cout<<"Please enter the DEMAND number:" <<endl;
+	cout<<"Please enter the DEMAND number: " <<endl;
 	cin>>demand;
 	cout<<endl;
 
